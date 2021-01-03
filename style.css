@@ -173,6 +173,7 @@ img{
 
 .login__signin, .login__signup{
     color: var(--first-color);
+    cursor: pointer;
 }
 
 .login__social{
@@ -196,5 +197,54 @@ img{
 }
 
 
-
 /* ----- MEDIA QUERIES ----- */
+@media screen and (min-width: 576px){
+    .login__forms{
+        width: 348px;
+        justify-self: center;
+    }
+
+    .login__img{
+        justify-self: center;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .login{
+        height: 100vh;
+        overflow: hidden;
+    }
+
+    .login__content{
+        grid-template-columns: repeat(2, max-content);
+        justify-content: center;
+        align-items: center;
+        margin-left: 10rem;
+    }
+
+    .login__img{
+        display: flex;
+        width: 600px;
+        height: 588px;
+        background-color: var(--first-color-lighten);
+        border-radius: 1rem;
+        padding-left: 1rem;
+    }
+
+    .login__img img{
+        width: 390px;
+        margin-top: 0;
+    }
+
+    .login__register, .login__create{
+        left: -11rem;
+    }
+
+    .login__register{
+        bottom: -2rem;
+    }
+
+    .login__create{
+        bottom: -5.5rem;
+    }
+}
