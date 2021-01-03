@@ -10,4 +10,4 @@ Responsive *login & registration form* created using HTML5, JavaScript & CSS3.
 
 
 ## See it live
-Here's the live link:
+Here's the live link: https://neomatlala.github.io/Login-SignUp-Page--01/
